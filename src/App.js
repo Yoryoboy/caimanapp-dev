@@ -5,6 +5,8 @@ import LoginPage from "./pages/LoginPage";
 import SignUpPage from "./pages/SignUpPage";
 import DashboardPage from "./pages/DashboardPage";
 
+console.log("API Base URL:", process.env.REACT_APP_API_BASE_URL);
+
 function App() {
   return (
     <Router>
