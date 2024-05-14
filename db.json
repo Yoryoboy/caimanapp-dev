@@ -1,0 +1,164 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Juan Perez",
+      "email": "juan.perez@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "nombre": "Ana Gomez",
+      "email": "ana.gomez@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 3,
+      "nombre": "Carlos Martinez",
+      "email": "carlos.martinez@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 4,
+      "nombre": "Laura Fernandez",
+      "email": "laura.fernandez@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 5,
+      "nombre": "Jose Rodriguez",
+      "email": "jose.rodriguez@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 6,
+      "nombre": "Maria Lopez",
+      "email": "maria.lopez@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 7,
+      "nombre": "David Gonzalez",
+      "email": "david.gonzalez@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 8,
+      "nombre": "Sofia Sanchez",
+      "email": "sofia.sanchez@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 9,
+      "nombre": "Daniel Ramirez",
+      "email": "daniel.ramirez@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 10,
+      "nombre": "Isabel Torres",
+      "email": "isabel.torres@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 11,
+      "nombre": "Pedro Silva",
+      "email": "pedro.silva@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 12,
+      "nombre": "Carla Ruiz",
+      "email": "carla.ruiz@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 13,
+      "nombre": "Andres Ortiz",
+      "email": "andres.ortiz@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 14,
+      "nombre": "Luisa Ramirez",
+      "email": "luisa.ramirez@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 15,
+      "nombre": "Miguel Hernandez",
+      "email": "miguel.hernandez@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 16,
+      "nombre": "Elena Castro",
+      "email": "elena.castro@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 17,
+      "nombre": "Fernando Jimenez",
+      "email": "fernando.jimenez@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 18,
+      "nombre": "Lucia Romero",
+      "email": "lucia.romero@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 19,
+      "nombre": "Javier Navarro",
+      "email": "javier.navarro@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 20,
+      "nombre": "Marta Vega",
+      "email": "marta.vega@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 21,
+      "nombre": "Alberto Delgado",
+      "email": "alberto.delgado@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 22,
+      "nombre": "Patricia Flores",
+      "email": "patricia.flores@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 23,
+      "nombre": "Ricardo Morales",
+      "email": "ricardo.morales@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 24,
+      "nombre": "Adriana Aguilar",
+      "email": "adriana.aguilar@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 25,
+      "nombre": "Gabriel Ortiz",
+      "email": "gabriel.ortiz@example.com",
+      "password": "123456"
+    }
+  ],
+  "partidos": [
+    {
+      "id": 1,
+      "fecha": "2024-05-10",
+      "hora": "18:00",
+      "lugar": "Cancha Central",
+      "participantes": [1, 2],
+      "equipos": { "negro": [1], "blanco": [2] }
+    }
+  ]
+}
