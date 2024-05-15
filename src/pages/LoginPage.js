@@ -63,7 +63,7 @@ function LoginPage() {
       </div>
       <footer>
         <p>¿No tienes cuenta?</p>
-        <a href="/">Regístrate</a>
+        <a href="/signup">Regístrate</a>
       </footer>
     </>
   );
