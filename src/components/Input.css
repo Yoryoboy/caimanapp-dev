@@ -1,0 +1,42 @@
+.input-container {
+  display: flex;
+  align-items: center;
+  border: solid 1px #374151;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 16px;
+  transition: border-color 0.3s;
+}
+
+.input-container i {
+  color: #828282;
+  margin-right: 5px;
+  width: 16px;
+  height: 20px;
+}
+
+.input-container .fi {
+  cursor: pointer;
+}
+
+.input-container .hidden {
+  display: none;
+}
+
+.input-container input {
+  border: none;
+  outline: none;
+  background: none;
+  color: #f9fafb;
+  font-size: 12px;
+  font-family: "Poppins";
+  flex-grow: 1;
+}
+
+.input-container input::placeholder {
+  color: #6d7280;
+}
+
+.input-container:focus-within {
+  border-color: #9ca3af;
+}

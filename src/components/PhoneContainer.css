@@ -1,0 +1,18 @@
+.phone-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #1f2937;
+}
+
+@media (min-width: 768px) {
+  .phone-container {
+    width: 375px; /* Ancho típico de un teléfono */
+    height: 812px; /* Alto típico de un teléfono */
+    border: 2px solid #000; /* Borde sólido para distinguir el contenedor */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para darle profundidad */
+    margin: auto;
+    background: #1f2937;
+  }
+}
