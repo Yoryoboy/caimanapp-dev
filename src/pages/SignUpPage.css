@@ -1,0 +1,61 @@
+.signup-container {
+  padding: 0 16px;
+  margin-top: 10em;
+}
+
+.signup-container h1 {
+  font-family: Poppins;
+  color: #fafafa;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+
+.signup-container div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.signup-container input[type="checkbox"] {
+  margin-right: 5px;
+  padding: 0;
+}
+
+.signup-container .info {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #fafafa;
+}
+
+.signup-container a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #818cf8;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+footer p {
+  margin-right: 5px;
+  color: #fafafa;
+}
+
+footer a {
+  color: #81aef1;
+  text-decoration: none;
+  font-weight: 600;
+}

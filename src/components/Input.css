@@ -40,3 +40,16 @@
 .input-container:focus-within {
   border-color: #9ca3af;
 }
+
+.input-container.valid {
+  border-color: #06c27066; /* Color del borde cuando es válido */
+}
+
+.input-container.error {
+  border-color: #ef4444;
+}
+
+.error-message {
+  color: #ef4444;
+  font-size: 11px;
+}
