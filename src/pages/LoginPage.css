@@ -12,6 +12,10 @@
   text-align: left;
 }
 
+.login-container .input-container {
+  margin-bottom: 16px;
+}
+
 .login-container div {
   display: flex;
   align-items: center;
@@ -39,6 +43,10 @@
   font-size: 12px;
   color: #818cf8;
   text-decoration: none;
+}
+
+.login-container button {
+  margin-top: 24px;
 }
 
 footer {

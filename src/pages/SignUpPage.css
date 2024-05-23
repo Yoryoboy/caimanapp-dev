@@ -12,6 +12,14 @@
   text-align: left;
 }
 
+.signup-container .input-container {
+  margin-bottom: 16px;
+}
+
+.signup-container .btn {
+  margin-top: 24px;
+}
+
 .signup-container div {
   display: flex;
   align-items: center;

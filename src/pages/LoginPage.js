@@ -4,8 +4,11 @@ import { useState } from "react";
 import "./LoginPage.css";
 import Input from "../components/Input";
 import Button from "../components/Button";
+import { useNavigate } from "react-router-dom";
 
 function LoginPage() {
+  const navigation = useNavigate();
+
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -20,6 +23,7 @@ function LoginPage() {
   function handleSubmit(e) {
     e.preventDefault();
     console.log(email, password);
+    navigation("/dashboard");
   }
 
   return (
@@ -56,6 +60,7 @@ function LoginPage() {
             backgroundColor="#8754A5"
             color="#FAFAFA"
             onClick={handleSubmit}
+            width="100%"
           >
             Iniciar sesión
           </Button>

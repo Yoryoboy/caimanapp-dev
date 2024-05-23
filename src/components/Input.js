@@ -1,7 +1,17 @@
 import { useState } from "react";
 import "./Input.css";
 
-function Input({ type, label, value, icon, onChange, children, error }) {
+function Input({
+  type,
+  label,
+  value,
+  icon,
+  onChange,
+  children,
+  error,
+  style = null,
+  enableValidation = true,
+}) {
   const [showPassword, setShowPassword] = useState(false);
 
   function togglePasswordVisibility() {
@@ -11,17 +21,19 @@ function Input({ type, label, value, icon, onChange, children, error }) {
   return (
     <>
       <div
-        className={`input-container ${error ? "error" : ""} ${
-          !error && value ? "valid" : ""
-        }`}
+        className={`input-container ${
+          enableValidation && error ? "error" : ""
+        } ${enableValidation && !error && value ? "valid" : ""}`}
+        style={style}
       >
-        <i className={`${icon} ${value ? "hidden" : ""}`}></i>
+        {icon && <i className={`${icon} ${value ? "hidden" : ""}`}></i>}
         <input
           type={showPassword && label === "password" ? "text" : type}
           label={label}
           placeholder={children}
           value={value}
           onChange={onChange}
+          style={style}
         />
         {label === "password" && (
           <i
@@ -32,7 +44,7 @@ function Input({ type, label, value, icon, onChange, children, error }) {
           ></i>
         )}
       </div>
-      {error && <p className="error-message">{error}</p>}
+      {enableValidation && error && <p className="error-message">{error}</p>}
     </>
   );
 }

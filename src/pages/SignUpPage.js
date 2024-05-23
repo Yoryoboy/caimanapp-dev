@@ -171,6 +171,7 @@ function SignUpPage() {
             color="#FAFAFA"
             onClick={handleSubmit}
             disabled={!isFormValid()}
+            width="100%"
           >
             Crear cuenta
           </Button>

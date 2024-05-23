@@ -1,9 +1,17 @@
 import "./Button.css";
 
-function Button({ children, backgroundColor, color, onClick, disabled }) {
+function Button({
+  children,
+  backgroundColor,
+  color,
+  width = "auto",
+  onClick,
+  disabled,
+}) {
   const style = {
-    backgroundColor: backgroundColor,
+    background: backgroundColor,
     color: color,
+    width: width,
   };
   return (
     <button className="btn" style={style} onClick={onClick} disabled={disabled}>
