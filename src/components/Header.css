@@ -2,7 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 17px 24px 17px;
+  /* padding: 24px 17px 24px 17px; */
 }
 
 .user-info {
@@ -11,7 +11,7 @@ header {
   color: #fff;
 }
 
-img {
+.user-pic {
   width: 52px;
   height: 52px;
   border-radius: 50%;

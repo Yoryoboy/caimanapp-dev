@@ -1,7 +1,5 @@
 .create-match-section {
-  margin: 16px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px;
   color: #fafafa;
   text-align: center;
   font-family: Poppins;
@@ -20,9 +18,10 @@
 }
 
 .create-match-section p {
-  margin-top: 0;
-  margin-bottom: 12px;
+  margin: 0 auto 12px auto;
   font-size: 12px;
   font-weight: 400;
   line-height: 14px;
+  max-width: 252px;
+  text-align: center;
 }

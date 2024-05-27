@@ -7,7 +7,7 @@ function Header() {
     <header>
       <div className="user-info">
         <div>
-          <img src="user-pic.jpg" alt="logo" />
+          <img className="user-pic" src="user-pic.jpg" alt="logo" />
         </div>
         <div>
           <p>
