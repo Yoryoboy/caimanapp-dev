@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../components/Button";
 import "./CreateMatchSection.css";
 
-export function CreateMatchSection() {
+function CreateMatchSection() {
   return (
     <section className="create-match-section">
       <h3>Crea tu caimana</h3>
@@ -17,3 +17,5 @@ export function CreateMatchSection() {
     </section>
   );
 }
+
+export default CreateMatchSection;

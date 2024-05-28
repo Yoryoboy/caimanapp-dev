@@ -1,8 +1,8 @@
 import React from "react";
-import { Card } from "./Card";
+import Card from "./Card";
 import "./FriendGroupSection.css";
 
-export function FriendGroupSection() {
+function FriendGroupSection() {
   return (
     <section className="friend-group-section">
       <Card img="friends-section-bg.jpg" title="Amigos" />
@@ -10,3 +10,5 @@ export function FriendGroupSection() {
     </section>
   );
 }
+
+export default FriendGroupSection;

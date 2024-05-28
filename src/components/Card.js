@@ -1,7 +1,7 @@
 import React from "react";
 import "./Card.css";
 
-export function Card({ img, title }) {
+function Card({ img, title }) {
   return (
     <div className="card">
       <img src={img} alt="placeholder" />
@@ -9,3 +9,5 @@ export function Card({ img, title }) {
     </div>
   );
 }
+
+export default Card;

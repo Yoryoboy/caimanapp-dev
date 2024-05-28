@@ -1,0 +1,36 @@
+.match-item {
+  background: #3c2e5a;
+  border-radius: 12px;
+  padding: 12px 16px 12px 16px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.match-item-header,
+.match-item-info,
+.match-item-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.match-item-header,
+.match-item-info {
+  margin-bottom: 12px;
+}
+
+.match-item-header h3 {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  text-align: left;
+  color: #fafafa;
+  margin: 0;
+}
+
+.match-item-date {
+  display: flex;
+  align-items: start;
+}
+
+.match-item-buttons {
+  gap: 12px;
+}
