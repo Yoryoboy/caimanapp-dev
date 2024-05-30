@@ -29,6 +29,7 @@
 .match-item-date {
   display: flex;
   align-items: start;
+  margin-bottom: 2px;
 }
 
 .match-item-buttons {

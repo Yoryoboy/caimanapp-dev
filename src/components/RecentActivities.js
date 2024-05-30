@@ -1,6 +1,6 @@
 import React from "react";
 import "./RecentActivities.css";
-import { RecentActivitiesFeed } from "./RecentActivitiesFeed";
+import RecentActivitiesFeed from "./RecentActivitiesFeed";
 
 export function RecentActivities() {
   return (

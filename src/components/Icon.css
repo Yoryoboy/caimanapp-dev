@@ -1,11 +1,4 @@
-.icon-container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-
-.icon-container i {
-  position: absolute;
-  transform: translateY(-25%) translateY(-2.5px);
-  margin-left: 10px;
+i::before {
+  display: inline-block;
+  vertical-align: middle;
 }

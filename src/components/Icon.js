@@ -1,17 +1,16 @@
 import React from "react";
 import "./Icon.css";
 
-function Icon({ icon, color = "white", fontSize = "12px" }) {
-  const style = {
+function Icon({ icon, color = "white", size = "12px" }) {
+  const styles = {
+    fontSize: size,
     color: color,
-    fontSize: fontSize,
+    lineHeight: 1,
+    verticalAlign: "middle",
+    display: "inline-block",
   };
 
-  return (
-    <div className="icon-container">
-      <i className={icon} style={style}></i>
-    </div>
-  );
+  return <i className={`fi ${icon}`} style={styles}></i>;
 }
 
 export default Icon;

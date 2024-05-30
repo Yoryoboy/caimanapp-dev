@@ -1,31 +1,24 @@
 import React from "react";
-import Icon from "./Icon";
 import "./RecentActivitiesFeed.css";
+import RecentActivitiesItem from "./RecentActivitiesItem";
 
-export function RecentActivitiesFeed() {
+function RecentActivitiesFeed() {
   return (
     <div className="recent-activties-feed">
-      <div className="recent-activities-item">
-        <i className="fi fi-rs-comment-info"></i>
-        <p>
-          <strong>YoryoToure</strong> se ha bajado de la caimana para la partida
-          de <strong>Jueves 7pm, Partido 5v5</strong>
-        </p>
-      </div>
-      <div className="recent-activities-item">
-        <i className="fi fi-rs-comment-info"></i>
-        <p>
-          <strong>YoryoToure</strong> se ha bajado de la caimana para la partida
-          de <strong>Jueves 7pm, Partido 5v5</strong>
-        </p>
-      </div>
-      <div className="recent-activities-item">
-        <i className="fi fi-rs-comment-info"></i>
-        <p>
-          <strong>YoryoToure</strong> se ha bajado de la caimana para la partida
-          de <strong>Jueves 7pm, Partido 5v5</strong>
-        </p>
-      </div>
+      <RecentActivitiesItem icon="fi-rs-comment-info" color="#FFCC00">
+        <strong>YoryoToure</strong> se ha bajado de la caimana para la partida
+        de <strong>Jueves 7pm, Partido 5v5</strong>
+      </RecentActivitiesItem>
+      <RecentActivitiesItem icon="fi-rs-comment-heart" color="#06C270">
+        <strong>AlePlgr</strong> se ha unido a la caimana para la partida de
+        <strong>Jueves 7pm, Partido 5v5</strong>
+      </RecentActivitiesItem>
+      <RecentActivitiesItem icon="fi-rs-comment-heart" color="#06C270">
+        <strong>Jofre</strong> se ha unido a la caimana para la partida de
+        <strong>Jueves 7pm, Partido 5v5</strong>
+      </RecentActivitiesItem>
     </div>
   );
 }
+
+export default RecentActivitiesFeed;
