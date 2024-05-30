@@ -4,7 +4,7 @@ import { useState } from "react";
 import "./LoginPage.css";
 import Input from "../components/Input";
 import Button from "../components/Button";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function LoginPage() {
   const navigation = useNavigate();
@@ -68,7 +68,7 @@ function LoginPage() {
       </div>
       <footer>
         <p>¿No tienes cuenta?</p>
-        <a href="/signup">Regístrate</a>
+        <Link to="/signup">Regístrate</Link>
       </footer>
     </>
   );
