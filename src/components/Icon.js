@@ -1,10 +1,15 @@
 import React from "react";
 import "./Icon.css";
 
-function Icon({ icon }) {
+function Icon({ icon, color = "white", fontSize = "12px" }) {
+  const style = {
+    color: color,
+    fontSize: fontSize,
+  };
+
   return (
     <div className="icon-container">
-      <i class={icon}></i>
+      <i className={icon} style={style}></i>
     </div>
   );
 }

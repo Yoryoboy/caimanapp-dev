@@ -1,0 +1,30 @@
+.recent-activties-feed {
+  max-height: 136px;
+  overflow: scroll;
+}
+
+.recent-activities-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 6px;
+  gap: 8px;
+  border-bottom: 1px solid #3c2e5a;
+}
+
+.recent-activities-item p {
+  font-size: 12px;
+  text-align: left;
+  color: #ffffff;
+  margin: 0;
+}
+
+.fi-rs-comment-info {
+  line-height: 1;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.fi-rs-comment-info::before {
+  display: inline-block;
+  vertical-align: middle;
+}

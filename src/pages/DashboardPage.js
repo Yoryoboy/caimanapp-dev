@@ -5,7 +5,8 @@ import "./DashboardPage.css";
 import SearchBar from "../components/SearchBar";
 import CreateMatchSection from "../components/CreateMatchSection";
 import FriendGroupSection from "../components/FriendGroupSection";
-import UpocomingMatches from "../components/UpocomingMatches";
+import UpcomingMatches from "../components/UpcomingMatches";
+import { RecentActivities } from "../components/RecentActivities";
 
 function DashboardPage() {
   return (
@@ -14,11 +15,8 @@ function DashboardPage() {
       <SearchBar />
       <CreateMatchSection />
       <FriendGroupSection />
-      <UpocomingMatches />
-
-      {/* 
-      <section>upcoming matches</section>
-      <section>recent activities</section> */}
+      <UpcomingMatches />
+      <RecentActivities />
     </div>
   );
 }
