@@ -1,6 +1,4 @@
 .input-container {
-  display: flex;
-  align-items: center;
   border: solid 1px #374151;
   border-radius: 8px;
   padding: 10px;
@@ -11,8 +9,14 @@
 .input-container i {
   color: #828282;
   margin-right: 5px;
-  width: 16px;
-  height: 20px;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 0.5;
+}
+
+i::before {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .input-container .fi {
