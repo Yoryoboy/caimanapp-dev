@@ -48,22 +48,3 @@
 .login-container button {
   margin-top: 24px;
 }
-
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 0;
-  width: 100%;
-}
-
-footer p {
-  margin-right: 5px;
-  color: #fafafa;
-}
-
-footer a {
-  color: #81aef1;
-  text-decoration: none;
-  font-weight: 600;
-}
