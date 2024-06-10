@@ -20,6 +20,7 @@ function IconButton({ iconClass, iconColor, backgroundColor }) {
   return (
     <div className="icon-button-container" style={containerStyle}>
       <i className={iconClass} style={iconStyle}></i>
+      <div></div>
     </div>
   );
 }

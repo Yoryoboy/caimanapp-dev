@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 import IconButton from "./IconButton";
 
@@ -6,9 +7,11 @@ function Header() {
   return (
     <header>
       <div className="user-info">
-        <div>
-          <img className="user-pic" src="user-pic.jpg" alt="logo" />
-        </div>
+        <Link to="/userpage" className="link-wrapper">
+          <div>
+            <img className="user-pic" src="user-pic.jpg" alt="logo" />
+          </div>
+        </Link>
         <div>
           <p>
             Bievenido,

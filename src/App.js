@@ -6,6 +6,7 @@ import DashboardPage from "./pages/DashboardPage";
 import VerificationPage from "./pages/VerificationPage";
 import "./App.css";
 import PhoneContainer from "./components/PhoneContainer";
+import UserPage from "./pages/UserPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/signup" element={<SignUpPage />} />
           <Route path="/verification" element={<VerificationPage />} />
           <Route path="/dashboard" element={<DashboardPage />} />
+          <Route path="/userpage" element={<UserPage />} />
         </Routes>
       </Router>
     </PhoneContainer>

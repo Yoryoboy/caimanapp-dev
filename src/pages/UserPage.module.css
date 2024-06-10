@@ -1,0 +1,93 @@
+.userProfileBackground {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #181832;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userProfileHeader {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 16px;
+  height: 106px;
+  width: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../../public/profile-header.jpeg), #d9d9d9;
+  background-position: center;
+  background-size: cover;
+}
+
+.userProfileInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  gap: 9px;
+  position: absolute;
+  width: 193px;
+  top: 58px;
+}
+
+.userPic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  box-shadow: 0px 0px 8px #181832;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.profileName {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 24px;
+  margin: 0;
+  color: #fafafa;
+}
+
+.username {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  color: #fafafa;
+  margin: 0;
+}
+
+.userDetails {
+  display: flex;
+  padding: 0px;
+  justify-content: space-around;
+  gap: 8px;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 6px;
+  gap: 6px;
+  background: #3c2e5a;
+  border-radius: 8px;
+}
+
+.statText {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #fafafa;
+  margin: 0;
+}
