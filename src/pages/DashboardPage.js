@@ -8,6 +8,24 @@ import FriendGroupSection from "../components/FriendGroupSection";
 import UpcomingMatches from "../components/UpcomingMatches";
 import { RecentActivities } from "../components/RecentActivities";
 
+const buttons = [
+  {
+    backgroundColor: "#3C2E5A",
+    width: "100%",
+    color: "#FAFAFA",
+    border: "1px solid #D8756E",
+    label: "Ver más",
+    onClick: () => alert("Ver más"),
+  },
+  {
+    backgroundColor: "linear-gradient(95.57deg, #DD8272 44.54%, #D8756E 60.7%)",
+    width: "100%",
+    color: "#FAFAFA",
+    label: "Anotarme",
+    onClick: () => alert("Anotarme"),
+  },
+];
+
 function DashboardPage() {
   return (
     <div>
@@ -15,7 +33,7 @@ function DashboardPage() {
       <SearchBar />
       <CreateMatchSection />
       <FriendGroupSection />
-      <UpcomingMatches />
+      <UpcomingMatches buttons={buttons} />
       <RecentActivities />
     </div>
   );

@@ -2,11 +2,11 @@ import React from "react";
 import "./UpcomingMatches.css";
 import MatchItem from "./MatchItem";
 
-function UpcomingMatches() {
+function UpcomingMatches({ buttons }) {
   return (
     <section className="upcoming-matches">
       <h2>Próximos partidos</h2>
-      <MatchItem />
+      <MatchItem buttons={buttons} />
     </section>
   );
 }

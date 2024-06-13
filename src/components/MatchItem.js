@@ -3,7 +3,7 @@ import IconParagraph from "./IconParagraph";
 import Button from "./Button";
 import "./MatchItem.css";
 
-function MatchItem() {
+function MatchItem({ buttons }) {
   return (
     <div className="match-item">
       <div className="match-item-header">
@@ -20,21 +20,18 @@ function MatchItem() {
         <IconParagraph icon="fi fi-rs-user">Masculino</IconParagraph>
       </div>
       <div className="match-item-buttons">
-        <Button
-          backgroundColor="#3C2E5A"
-          width="100%"
-          color="#FAFAFA"
-          border="1px solid #D8756E"
-        >
-          Ver más
-        </Button>
-        <Button
-          backgroundColor="linear-gradient(95.57deg, #DD8272 44.54%, #D8756E 60.7%)"
-          width="100%"
-          color="#FAFAFA"
-        >
-          Anotarme
-        </Button>
+        {buttons.map((button, index) => (
+          <Button
+            key={index}
+            backgroundColor={button.backgroundColor}
+            width={button.width}
+            color={button.color}
+            border={button.border}
+            onClick={button.onClick}
+          >
+            {button.label}
+          </Button>
+        ))}
       </div>
     </div>
   );
