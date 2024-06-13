@@ -7,11 +7,11 @@ import UpcomingMatches from "../components/UpcomingMatches";
 
 const button = [
   {
-    backgroundColor: "#3C2E5A",
+    backgroundColor: "linear-gradient(95.57deg, #DD8272 44.54%, #D8756E 60.7%)",
     width: "100%",
     color: "#FAFAFA",
     border: "1px solid #D8756E",
-    label: "Ver más",
+    label: "Detalles del partido",
     onClick: () => alert("Ver más"),
   },
 ];

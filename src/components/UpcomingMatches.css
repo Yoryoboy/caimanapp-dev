@@ -1,3 +1,11 @@
+.upcoming-matches {
+  margin: 16px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+}
+
 .upcoming-matches h2 {
   color: #ffffff;
   font-size: 16px;
