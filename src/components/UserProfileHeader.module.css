@@ -1,0 +1,13 @@
+.userProfileHeader {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 16px;
+  height: 106px;
+  width: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../../public/profile-header.jpeg), #d9d9d9;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}

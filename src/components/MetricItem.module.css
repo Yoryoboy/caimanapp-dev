@@ -1,0 +1,25 @@
+.metrics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 61px;
+  width: 165.5px;
+  background: #3c2e5a;
+  border-radius: 8px;
+
+  h2 {
+    font-weight: 600;
+    font-size: 28px;
+    color: #ffffff;
+    line-height: 28px;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+    color: #fafafa;
+    font-size: 11px;
+    line-height: 14px;
+  }
+}
