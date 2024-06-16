@@ -1,10 +1,11 @@
 import React from "react";
 import Button from "../components/Button";
-import "./CreateMatchSection.css";
+
+import styles from "./CreateMatchSection.module.css";
 
 function CreateMatchSection() {
   return (
-    <section className="create-match-section">
+    <section className={styles.createMatchSection}>
       <h3>Crea tu caimana</h3>
       <p>Lorem ipsum dolor sit amet consectetur. Aliquet purus aenean.</p>
       <Button
