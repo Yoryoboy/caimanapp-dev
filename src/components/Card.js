@@ -1,9 +1,9 @@
 import React from "react";
-import "./Card.css";
 
+import styles from "./Card.module.css";
 function Card({ img, title }) {
   return (
-    <div className="card">
+    <div className={styles.card}>
       <img src={img} alt="placeholder" />
       <h4>{title}</h4>
     </div>

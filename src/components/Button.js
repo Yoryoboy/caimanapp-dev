@@ -1,4 +1,4 @@
-import "./Button.css";
+import styles from "./Button.module.css";
 
 function Button({
   children,
@@ -16,7 +16,12 @@ function Button({
     border: border,
   };
   return (
-    <button className="btn" style={style} onClick={onClick} disabled={disabled}>
+    <button
+      className={styles.btn}
+      style={style}
+      onClick={onClick}
+      disabled={disabled}
+    >
       {children}
     </button>
   );
