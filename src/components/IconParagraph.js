@@ -1,10 +1,11 @@
 import React from "react";
-import "./IconParagraph.css";
 import Icon from "./Icon";
+
+import styles from "./IconParagraph.module.css";
 
 function IconParagraph({ icon, children }) {
   return (
-    <div className="icon-paragraph">
+    <div className={styles.iconParagraph}>
       <Icon icon={icon} />
       <p>{children}</p>
     </div>
