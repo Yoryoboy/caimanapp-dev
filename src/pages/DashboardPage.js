@@ -5,7 +5,7 @@ import "./DashboardPage.css";
 import SearchBar from "../components/SearchBar";
 import CreateMatchSection from "../components/CreateMatchSection";
 import FriendGroupSection from "../components/FriendGroupSection";
-import UpcomingMatches from "../components/UpcomingMatches";
+import MatchCard from "../components/MatchCard";
 import { RecentActivities } from "../components/RecentActivities";
 
 const buttons = [
@@ -33,7 +33,7 @@ function DashboardPage() {
       <SearchBar />
       <CreateMatchSection />
       <FriendGroupSection />
-      <UpcomingMatches buttons={buttons} />
+      <MatchCard title="Próximos partidos" buttons={buttons} />
       <RecentActivities />
     </div>
   );

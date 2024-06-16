@@ -3,7 +3,8 @@ import UserProfileHeader from "../components/UserProfileHeader";
 import UserDetails from "../components/UserDetails";
 import UserMetrics from "../components/UserMetrics";
 import CreatedGroups from "../components/CreatedGroups";
-import UpcomingMatches from "../components/UpcomingMatches";
+import MatchCard from "../components/MatchCard";
+import { RecentActivities } from "../components/RecentActivities";
 
 const button = [
   {
@@ -23,7 +24,8 @@ function UserPage() {
       <UserDetails />
       <UserMetrics />
       <CreatedGroups />
-      <UpcomingMatches buttons={button} />
+      <MatchCard title="Partidos jugados" buttons={button} />
+      <RecentActivities />
     </div>
   );
 }
