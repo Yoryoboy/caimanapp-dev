@@ -1,25 +1,26 @@
 import React from "react";
 import IconParagraph from "./IconParagraph";
 import Button from "./Button";
-import "./MatchItem.css";
+
+import styles from "./MatchItem.module.css";
 
 function MatchItem({ buttons }) {
   return (
-    <div className="match-item">
-      <div className="match-item-header">
+    <div className={styles.matchItem}>
+      <div className={styles.matchItemHeader}>
         <h3>Jueves 19hs, Partido 5v5</h3>
         <IconParagraph icon="fi fi-rs-address-book">9/10</IconParagraph>
       </div>
-      <div className="match-item-date">
+      <div className={styles.matchItemDate}>
         <IconParagraph icon="fi fi-rs-clock">19/12/2022</IconParagraph>
       </div>
-      <div className="match-item-info">
+      <div className={styles.matchItemInfo}>
         <IconParagraph icon="fi fi-rs-marker">
           Open Dorrego Atlanta
         </IconParagraph>
         <IconParagraph icon="fi fi-rs-user">Masculino</IconParagraph>
       </div>
-      <div className="match-item-buttons">
+      <div className={styles.matchItemButtons}>
         {buttons.map((button, index) => (
           <Button
             key={index}
