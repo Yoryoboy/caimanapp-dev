@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Header.css";
 import IconButton from "./IconButton";
+
+import styles from "./Header.module.css";
 
 function Header() {
   return (
-    <header>
-      <div className="user-info">
+    <header className={styles.header}>
+      <div className={styles.userInfo}>
         <Link to="/userpage" className="link-wrapper">
           <div>
-            <img className="user-pic" src="user-pic.jpg" alt="logo" />
+            <img className={styles.userPic} src="user-pic.jpg" alt="logo" />
           </div>
         </Link>
         <div>

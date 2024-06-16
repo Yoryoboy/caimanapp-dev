@@ -1,13 +1,20 @@
 import React from "react";
-import "./IconButton.css";
+import styles from "./IconButton.module.css";
 
-function IconButton({ iconClass, iconColor, backgroundColor }) {
+function IconButton({
+  iconClass,
+  iconColor,
+  backgroundColor,
+  position = "relative",
+}) {
   const containerStyle = {
     color: iconColor,
     backgroundColor: backgroundColor,
     borderRadius: "12px",
     width: "44px",
     height: "44px",
+    position: position,
+    right: "0",
   };
 
   const iconStyle = {
@@ -18,7 +25,7 @@ function IconButton({ iconClass, iconColor, backgroundColor }) {
   };
 
   return (
-    <div className="icon-button-container" style={containerStyle}>
+    <div className={styles.iconButtonContainer} style={containerStyle}>
       <i className={iconClass} style={iconStyle}></i>
       <div></div>
     </div>

@@ -1,12 +1,13 @@
 // src/pages/DashboardPage.js
 import React from "react";
 import Header from "../components/Header";
-import "./DashboardPage.css";
 import SearchBar from "../components/SearchBar";
 import CreateMatchSection from "../components/CreateMatchSection";
 import FriendGroupSection from "../components/FriendGroupSection";
 import MatchCard from "../components/MatchCard";
-import { RecentActivities } from "../components/RecentActivities";
+import RecentActivities from "../components/RecentActivities";
+
+import styles from "./DashboardPage.module.css";
 
 const buttons = [
   {
@@ -28,7 +29,7 @@ const buttons = [
 
 function DashboardPage() {
   return (
-    <div>
+    <div className={styles.section}>
       <Header />
       <SearchBar />
       <CreateMatchSection />

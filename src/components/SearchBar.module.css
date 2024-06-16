@@ -1,0 +1,12 @@
+.section {
+  position: relative;
+}
+
+.inputWithIcon {
+  display: flex;
+  align-items: center;
+  width: 94%;
+  input {
+    border-radius: 12px;
+  }
+}

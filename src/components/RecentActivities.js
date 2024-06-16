@@ -2,7 +2,7 @@ import React from "react";
 import "./RecentActivities.css";
 import RecentActivitiesFeed from "./RecentActivitiesFeed";
 
-export function RecentActivities() {
+function RecentActivities() {
   return (
     <section className="recent-activities-section">
       <h2>Actividades recientes</h2>
@@ -10,3 +10,5 @@ export function RecentActivities() {
     </section>
   );
 }
+
+export default RecentActivities;

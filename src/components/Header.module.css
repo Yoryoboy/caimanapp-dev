@@ -1,17 +1,17 @@
-header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 24px 17px 24px 17px; */
+  position: relative;
 }
 
-.user-info {
+.userInfo {
   display: flex;
   align-items: center;
   color: #fff;
 }
 
-.user-pic {
+.userPic {
   width: 52px;
   height: 52px;
   border-radius: 50%;
