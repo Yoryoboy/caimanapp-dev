@@ -1,10 +1,11 @@
 import React from "react";
 import Icon from "./Icon";
-import "./RecentActivitiesItem.css";
+
+import styles from "./RecentActivitiesItem.module.css";
 
 function RecentActivitiesItem({ icon, color, children }) {
   return (
-    <div className="recent-activities-item">
+    <div className={styles.recentActivitiesItem}>
       <Icon icon={icon} color={color} size="16px" />
       <p>{children}</p>
     </div>

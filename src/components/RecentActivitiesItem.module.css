@@ -1,0 +1,13 @@
+.recentActivitiesItem {
+  display: flex;
+  align-items: center;
+  padding: 12px 6px;
+  gap: 8px;
+  border-bottom: 1px solid #3c2e5a;
+  p {
+    font-size: 12px;
+    text-align: left;
+    color: #ffffff;
+    margin: 0;
+  }
+}

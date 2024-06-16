@@ -1,4 +1,4 @@
-i::before {
+.icon::before {
   display: inline-block;
   vertical-align: middle;
 }

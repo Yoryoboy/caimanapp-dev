@@ -1,10 +1,11 @@
 import React from "react";
-import "./RecentActivitiesFeed.css";
 import RecentActivitiesItem from "./RecentActivitiesItem";
+
+import styles from "./RecentActivitiesFeed.module.css";
 
 function RecentActivitiesFeed() {
   return (
-    <div className="recent-activties-feed">
+    <div className={styles.recentActivtiesFeed}>
       <RecentActivitiesItem icon="fi-rs-comment-info" color="#FFCC00">
         <strong>YoryoToure</strong> se ha bajado de la caimana para la partida
         de <strong>Jueves 7pm, Partido 5v5</strong>
