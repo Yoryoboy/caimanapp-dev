@@ -1,4 +1,4 @@
-.input-container {
+.inputContainer {
   border: solid 1px #374151;
   border-radius: 8px;
   padding: 10px;
@@ -6,7 +6,7 @@
   transition: border-color 0.3s;
 }
 
-.input-container i {
+.inputContainer i {
   color: #828282;
   margin-right: 5px;
   vertical-align: middle;
@@ -19,15 +19,15 @@ i::before {
   vertical-align: middle;
 }
 
-.input-container .fi {
+.inputContainer .fi {
   cursor: pointer;
 }
 
-.input-container .hidden {
+.inputContainer .hidden {
   display: none;
 }
 
-.input-container input {
+.inputContainer input {
   border: none;
   outline: none;
   background: none;
@@ -37,23 +37,23 @@ i::before {
   flex-grow: 1;
 }
 
-.input-container input::placeholder {
+.inputContainer input::placeholder {
   color: #6d7280;
 }
 
-.input-container:focus-within {
+.inputContainer:focus-within {
   border-color: #9ca3af;
 }
 
-.input-container.valid {
+.inputContainer.valid {
   border-color: #06c27066; /* Color del borde cuando es válido */
 }
 
-.input-container.error {
+.inputContainer.error {
   border-color: #ef4444;
 }
 
-.error-message {
+.errorMessage {
   color: #ef4444;
   font-size: 11px;
 }

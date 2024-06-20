@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "./Input.css";
 
+import styles from "./Input.module.css";
 function Input({
   type,
   label,
@@ -21,7 +21,7 @@ function Input({
   return (
     <>
       <div
-        className={`input-container ${
+        className={`${styles.inputContainer} ${
           enableValidation && error ? "error" : ""
         } ${enableValidation && !error && value ? "valid" : ""}`}
         style={style}
@@ -44,7 +44,9 @@ function Input({
           ></i>
         )}
       </div>
-      {enableValidation && error && <p className="error-message">{error}</p>}
+      {enableValidation && error && (
+        <p className={styles.errorMessage}>{error}</p>
+      )}
     </>
   );
 }

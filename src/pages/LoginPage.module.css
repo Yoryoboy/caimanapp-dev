@@ -1,33 +1,35 @@
-.login-container {
+.loginContainer {
   padding: 0 16px;
   margin-top: 10em;
 }
 
-.login-container h1 {
+.loginContainer h1 {
   font-family: Poppins;
   color: #fafafa;
   font-size: 28px;
   font-weight: 600;
   line-height: 24px;
   text-align: left;
+  margin-bottom: 24px;
 }
 
-.login-container .input-container {
+.loginContainer form > :first-child,
+.loginContainer form > :nth-child(2) {
   margin-bottom: 16px;
 }
 
-.login-container div {
+.loginContainer div {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.login-container input[type="checkbox"] {
+.loginContainer input[type="checkbox"] {
   margin-right: 5px;
   padding: 0;
 }
 
-.login-container p {
+.loginContainer p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -36,7 +38,7 @@
   color: #fafafa;
 }
 
-.login-container a {
+.loginContainer a {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -45,6 +47,6 @@
   text-decoration: none;
 }
 
-.login-container button {
+.loginContainer button {
   margin-top: 24px;
 }

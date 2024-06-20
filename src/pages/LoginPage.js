@@ -1,10 +1,11 @@
 import React from "react";
 import { useState } from "react";
 
-import "./LoginPage.css";
 import Input from "../components/Input";
 import Button from "../components/Button";
 import { Link, useNavigate } from "react-router-dom";
+
+import styles from "./LoginPage.module.css";
 
 function LoginPage() {
   const navigation = useNavigate();
@@ -28,7 +29,7 @@ function LoginPage() {
 
   return (
     <>
-      <div className="login-container">
+      <div className={styles.loginContainer}>
         <h1>Inicio de sesión</h1>
         <form>
           <Input

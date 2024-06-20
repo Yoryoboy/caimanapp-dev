@@ -1,8 +1,9 @@
 import React from "react";
-import "./PhoneContainer.css";
+
+import styles from "./PhoneContainer.module.css";
 
 function PhoneContainer({ children }) {
-  return <div className="phone-container">{children}</div>;
+  return <div className={styles.phoneContainer}>{children}</div>;
 }
 
 export default PhoneContainer;

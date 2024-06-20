@@ -1,4 +1,4 @@
-.phone-container {
+.phoneContainer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -8,7 +8,7 @@
   background: #1f2937;
 }
 @media (min-width: 768px) {
-  .phone-container {
+  .phoneContainer {
     width: 375px; /* Ancho típico de un teléfono */
     height: 812px; /* Alto típico de un teléfono */
     border: 2px solid #000; /* Borde sólido para distinguir el contenedor */
