@@ -3,8 +3,9 @@ import React from "react";
 import Input from "../components/Input";
 import Button from "../components/Button";
 import { useReducer } from "react";
-import "./SignUpPage.css";
 import { useNavigate } from "react-router-dom";
+
+import styles from "./SignUpPage.module.css";
 
 function SignUpPage() {
   const navigation = useNavigate();
@@ -118,7 +119,7 @@ function SignUpPage() {
 
   return (
     <>
-      <div className="signup-container">
+      <div className={styles.signupContainer}>
         <h1>Registro</h1>
         <form>
           <Input
@@ -162,7 +163,7 @@ function SignUpPage() {
           >
             Contraseña
           </Input>
-          <p className="info">
+          <p className={styles.info}>
             Al registrarse, acepta nuestros Términos y condiciones y nuestra
             <a href="/privacy"> Política de privacidad.*</a>
           </p>
@@ -177,7 +178,7 @@ function SignUpPage() {
           </Button>
         </form>
       </div>
-      <footer>
+      <footer className={styles.footer}>
         <p>¿Ya tienes cuenta?</p>
         <a href="/login">Iniciar sesión</a>
       </footer>

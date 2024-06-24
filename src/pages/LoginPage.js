@@ -67,7 +67,7 @@ function LoginPage() {
           </Button>
         </form>
       </div>
-      <footer>
+      <footer className={styles.footer}>
         <p>¿No tienes cuenta?</p>
         <Link to="/signup">Regístrate</Link>
       </footer>
