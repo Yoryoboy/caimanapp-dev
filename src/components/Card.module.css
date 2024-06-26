@@ -4,13 +4,14 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  aspect-ratio: 2.096;
   color: #fafafa;
 
   img {
     width: 100%;
-    height: 100%;
     border-radius: 8px;
     box-shadow: 0px 4px 12px 0px #00000026;
+    aspect-ratio: 3/2;
   }
 
   h4 {
