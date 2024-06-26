@@ -121,7 +121,7 @@ function SignUpPage() {
     <>
       <div className={styles.signupContainer}>
         <h1>Registro</h1>
-        <form>
+        <form className={styles.form}>
           <Input
             type="text"
             label="name"

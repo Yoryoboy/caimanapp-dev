@@ -10,25 +10,18 @@
   font-weight: 600;
   line-height: 24px;
   text-align: left;
+  margin-bottom: 24px;
 }
 
-.signupContainer .input-container {
-  margin-bottom: 16px;
-}
-
-.signupContainer .btn {
-  margin-top: 24px;
-}
-
-.signupContainer div {
+.form {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.signupContainer input[type="checkbox"] {
-  margin-right: 5px;
-  padding: 0;
+  flex-direction: column;
+  div {
+    margin-bottom: 16px;
+  }
+  p {
+    margin-bottom: 24px;
+  }
 }
 
 .info {
@@ -52,8 +45,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 0;
   width: 100%;
+  margin-bottom: 48px;
 }
 
 .footer p {

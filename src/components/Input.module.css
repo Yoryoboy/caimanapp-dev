@@ -1,4 +1,7 @@
 .inputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   border: solid 1px #374151;
   border-radius: 8px;
   padding: 10px;
