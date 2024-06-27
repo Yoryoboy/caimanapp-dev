@@ -20,7 +20,7 @@ function UserDetails() {
           <p className={styles.statText}>4.5</p>
         </div>
         <div className={styles.statItem}>
-          <Icon icon="fi-rs-calendar" color="#828282" />
+          <Icon icon="fi-ve" color="#828282" />
           <p className={styles.statText}>VE</p>
         </div>
       </div>
