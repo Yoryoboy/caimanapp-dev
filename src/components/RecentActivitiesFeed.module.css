@@ -1,4 +1,5 @@
 .recentActivtiesFeed {
-  max-height: 136px;
+  flex-grow: 1;
+  height: 136px;
   overflow: scroll;
 }

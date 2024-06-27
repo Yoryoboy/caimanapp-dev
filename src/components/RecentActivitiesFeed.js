@@ -18,6 +18,10 @@ function RecentActivitiesFeed() {
         <strong>Jofre</strong> se ha unido a la caimana para la partida de
         <strong>Jueves 7pm, Partido 5v5</strong>
       </RecentActivitiesItem>
+      <RecentActivitiesItem icon="fi-rs-comment-heart" color="#06C270">
+        <strong>Jofre</strong> se ha unido a la caimana para la partida de
+        <strong>Jueves 7pm, Partido 5v5</strong>
+      </RecentActivitiesItem>
     </div>
   );
 }

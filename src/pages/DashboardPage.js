@@ -29,7 +29,7 @@ const buttons = [
 
 function DashboardPage() {
   return (
-    <div className={styles.section}>
+    <div className={styles.main}>
       <Header />
       <SearchBar />
       <CreateMatchSection />

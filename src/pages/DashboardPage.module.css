@@ -1,24 +1,27 @@
-.section {
-  margin: 16px;
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 16px 0 16px;
+  height: 100%;
 }
 
-.section > :first-child {
+.main > :first-child {
   margin-top: 24px;
   margin-bottom: 24px;
 }
 
-.section > :nth-child(2) {
+.main > :nth-child(2) {
   margin-bottom: 16px;
 }
 
-.section > :nth-child(3) {
+.main > :nth-child(3) {
   margin-bottom: 26px;
 }
 
-.section > :nth-child(4) {
+.main > :nth-child(4) {
   margin-bottom: 24px;
 }
 
-.section > :nth-child(5) {
+.main > :nth-child(5) {
   margin-bottom: 26px;
 }
